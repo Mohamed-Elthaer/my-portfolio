@@ -14,7 +14,7 @@ const projects = [
   title: "Task Management Dashboard",
   description:
     "Built a modern project and task management dashboard featuring task tracking, project organization, user management, interactive analytics charts, and CRUD functionality. Implemented responsive design, Redux Toolkit for state management, and a clean user experience optimized for productivity.",
-  image: "/public/project-dashboard.png",
+  image: "/project-dashboard.png",
   tags: [
     "React",
     "Redux Toolkit",
