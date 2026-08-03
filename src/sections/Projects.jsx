@@ -7,7 +7,7 @@ const projects = [
       "Developed a responsive e-commerce platform with authentication, role-based access control, advanced product filtering, search functionality, dark mode support, user profile management, order tracking, and a dedicated admin dashboard.",
     image: "/project-Ecom.png",
     tags: ["React", "Redux Toolkit", "Tailwind CSS", "JavaScript"],
-    link: "https://nove-store-5xtv.vercel.app",
+    link: "https://nove-store-beta.vercel.app/",
     github: "https://github.com/Mohamed-Elthaer/Nove-Store",
   },
   {
