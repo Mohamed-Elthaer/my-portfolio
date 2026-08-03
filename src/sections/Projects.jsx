@@ -26,6 +26,24 @@ const projects = [
   link: "https://mohamed-elthaer.github.io/task-management-dashboard/",
   github: "https://github.com/Mohamed-Elthaer/task-management-dashboard",
 },
+ {
+  title: "Clone Youtube",
+  description:
+  "A responsive YouTube clone built with React.js and Tailwind CSS. Features include video search, video details, channel pages, related videos, and real-time data integration using the YouTube Data API v3.",
+  image: "/Clone-youtube.png",
+  tags: [
+  "React",
+  "Tailwind CSS",
+  "React Router",
+  "Axios",
+  "YouTube Data API v3",
+  "Responsive Design",
+  "JavaScript"
+],
+  link: "https://youtube-clone-react-mu-ivory.vercel.app/",
+  github: "https://mohamed-elthaer.github.io/youtube-clone-react/",
+},
+
 ];
 export default function Projects() {
   return (
