@@ -23,7 +23,7 @@ const projects = [
     "Recharts",
     "JavaScript"
   ],
-  link: "https://mohamed-elthaer.github.io/task-management-dashboard/",
+  link: "https://task-management-dashboard-jade.vercel.app/",
   github: "https://github.com/Mohamed-Elthaer/task-management-dashboard",
 },
  {
