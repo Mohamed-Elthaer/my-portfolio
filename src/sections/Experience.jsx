@@ -1,30 +1,92 @@
+// const experiences = [
+//   {
+//     period: "2025 — Present",
+//     role: "Frontend Developer",
+//     company: "Full Stack MERN Developer & Personal Projects",
+//     description:
+//       "Developing responsive web applications with React and Tailwind CSS. Focused on creating clean user interfaces, state management solutions, and modern web experiences.",
+//     technologies: [
+//       "React",
+//       "JavaScript",
+//       "Tailwind CSS",
+//       "Bootsrap",
+//       "Redux Toolkit",
+//     ],
+//     current: true,
+//   },
+//   {
+//     period: "2024 — 2025",
+//     role: "Computer Science Student",
+//     company: "Faculty of Computers and Information",
+//     description:
+//       "Studied programming fundamentals, data structures, algorithms, databases, and web development while working on practical projects to strengthen problem-solving and software engineering skills.",
+//     technologies: ["C++", "Python", "HTML","CSS","JavaScript","SQL"],
+//     current: false,
+//   },
+// ];
 const experiences = [
   {
-    period: "2025 — Present",
-    role: "Frontend Developer",
+    period: "2026 — Present",
+    role: "Full Stack MERN Developer",
     company: "Freelance & Personal Projects",
     description:
-      "Developing responsive web applications with React and Tailwind CSS. Focused on creating clean user interfaces, state management solutions, and modern web experiences.",
+      "Building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Developing RESTful APIs, authentication systems, database solutions, and responsive user interfaces.",
     technologies: [
       "React",
-      "JavaScript",
-      "Tailwind CSS",
-      "Bootsrap",
       "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "REST API",
+      "JWT",
+      "Cloudinary",
+      "Git",
+      "GitHub",
+      "Postman",
+      "Railway",
+      "Vercel",
+      "Socket.io"
     ],
     current: true,
+  },
+  {
+    period: "2025 — 2026",
+    role: "Frontend Developer",
+    company: "Personal Projects",
+    description:
+      "Built responsive web interfaces using React and Tailwind CSS while learning modern frontend development concepts and state management.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Redux Toolkit",
+      "Axios",
+      "React Router",
+      "Vite",
+    ],
+    current: false,
   },
   {
     period: "2024 — 2025",
     role: "Computer Science Student",
     company: "Faculty of Computers and Information",
     description:
-      "Studied programming fundamentals, data structures, algorithms, databases, and web development while working on practical projects to strengthen problem-solving and software engineering skills.",
-    technologies: ["C++", "Python", "JavaScript", "SQL"],
+      "Studied programming fundamentals, data structures, algorithms, databases, and software engineering principles.",
+    technologies: [
+      "C++",
+      "Python",
+      "SQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
     current: false,
   },
 ];
-
 export default function Experience() {
   return (
     <section id="experience" className="py-32 relative overflow-hidden">

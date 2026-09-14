@@ -8,7 +8,37 @@ import { BsGithub } from "react-icons/bs";
 import { BiChevronDown } from "react-icons/bi";
 import { LuArrowDownToLine } from "react-icons/lu";
 
-const skills = ["HTML", "CSS", "Javascript","C++","Python", "React", "Tailwind", "Bootstrap"];
+const skills = [
+  "HTML",
+  "CSS",
+  "Javascript",
+
+  "React",
+  "Tailwind",
+  "Bootstrap",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "Mongoose",
+
+  "REST API",
+  "JWT Authentication",
+  "Git",
+  "GitHub",
+
+  "Cloudinary",
+  "Postman",
+
+  "C++",
+  "Python",
+  "React Router",
+  "Axios",
+  "Vite",
+  "Railway",
+  "Vercel",
+  "Responsive Design",
+  "Socket.io",
+];
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex item-center overflow-hidden">
@@ -43,10 +73,10 @@ export default function Hero() {
             <div className="animate-fade-in">
               <span className="inline-flex gap-2 items-center py-2 px-4 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse " />
-                Software Engineer . React Specialist
+                Software Engineer . Full Stack
               </span>
             </div>
-           
+
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl leading-tight animate-fade-in animation-delay-100">
                 Crafting{" "}
@@ -59,9 +89,10 @@ export default function Hero() {
                 </span>
               </h1>
               <p className="text-lg text-muted-forgeground max-w-lg animate-fade-in animate-delay-800">
-                Hi, I'm Mohamed Eltaher - a software engineer specializing in
-                React.js , tailwind . I build scalable performant Web
-                application that users love
+                Full Stack MERN Developer specializing in MongoDB, Express.js,
+                React.js, and Node.js. Experienced in building responsive user
+                interfaces, RESTful APIs, authentication systems, and scalable
+                web applications with modern development practices.
               </p>
             </div>
 
@@ -130,7 +161,7 @@ export default function Hero() {
                 </div>
 
                 <div className="absolute -top-4 glass rounded-xl px-4 py-4 animate-float animate-delay-500">
-                  <div className="text-2xl text-primary font-bold">1+</div>
+                  <div className="text-2xl text-primary font-bold">3+</div>
                   <div className="text-sm text-muted ">Years Exp.</div>
                 </div>
               </div>

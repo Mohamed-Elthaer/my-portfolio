@@ -148,7 +148,11 @@
     }
     100% {
       transform: translateX(-50%);
-    }
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+}
   }
 .animate-fade-in{
   animation: fade-in 0.8s ease-out both ;
@@ -158,8 +162,10 @@
     animation: float 4s ease-in-out infinite;
   }
   .animate-marquee {
+    width: max-content;
     animation: marquee 30s linear infinite;
-  }
+    -webkit-animation: marquee 30s linear infinite;
+}
 .animate-delay-100{
   animation-delay: 100ms;
 }

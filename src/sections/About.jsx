@@ -52,7 +52,7 @@ export default function About() {
 
             <div className="space-y-4 text-muted-forgeground animate-fade-in animate-delay-200">
               <p>
-                I'm a passionate software engineer with over 1 years of
+                I'm a passionate software engineer with over 3 years of
                 experience crafting digital products that make a difference. My
                 journey started with a curiosity for how things work on the web,
                 and it has evolved into a deep expertise in modern frontend

@@ -1,5 +1,50 @@
 import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import { AnimatedBorderButton } from "../component/AnimateButtom";
+// const projects = [
+//   {
+//     title: "E-Commerce Website",
+//     description:
+//       "Developed a responsive e-commerce platform with authentication, role-based access control, advanced product filtering, search functionality, dark mode support, user profile management, order tracking, and a dedicated admin dashboard.",
+//     image: "/project-Ecom.png",
+//     tags: ["React", "Redux Toolkit", "Tailwind CSS", "JavaScript"],
+//     link: "https://nove-store-beta.vercel.app/",
+//     github: "https://github.com/Mohamed-Elthaer/Nove-Store",
+//   },
+//   {
+//   title: "Task Management Dashboard",
+//   description:
+//     "Built a modern project and task management dashboard featuring task tracking, project organization, user management, interactive analytics charts, and CRUD functionality. Implemented responsive design, Redux Toolkit for state management, and a clean user experience optimized for productivity.",
+//   image: "/project-dashboard.png",
+//   tags: [
+//     "React",
+//     "Redux Toolkit",
+//     "Tailwind CSS",
+//     "React Router",
+//     "Recharts",
+//     "JavaScript"
+//   ],
+//   link: "https://task-management-dashboard-jade.vercel.app/",
+//   github: "https://github.com/Mohamed-Elthaer/task-management-dashboard",
+// },
+//  {
+//   title: "Clone Youtube",
+//   description:
+//   "A responsive YouTube clone built with React.js and Tailwind CSS. Features include video search, video details, channel pages, related videos, and real-time data integration using the YouTube Data API v3.",
+//   image: "/Clone-youtube.png",
+//   tags: [
+//   "React",
+//   "Tailwind CSS",
+//   "React Router",
+//   "Axios",
+//   "YouTube Data API v3",
+//   "Responsive Design",
+//   "JavaScript"
+// ],
+//   link: "https://youtube-clone-react-mu-ivory.vercel.app/",
+//   github: "https://mohamed-elthaer.github.io/youtube-clone-react/",
+// },
+
+// ];
 const projects = [
   {
     title: "E-Commerce Website",
@@ -11,39 +56,57 @@ const projects = [
     github: "https://github.com/Mohamed-Elthaer/Nove-Store",
   },
   {
-  title: "Task Management Dashboard",
-  description:
-    "Built a modern project and task management dashboard featuring task tracking, project organization, user management, interactive analytics charts, and CRUD functionality. Implemented responsive design, Redux Toolkit for state management, and a clean user experience optimized for productivity.",
-  image: "/project-dashboard.png",
-  tags: [
-    "React",
-    "Redux Toolkit",
-    "Tailwind CSS",
-    "React Router",
-    "Recharts",
-    "JavaScript"
-  ],
-  link: "https://task-management-dashboard-jade.vercel.app/",
-  github: "https://github.com/Mohamed-Elthaer/task-management-dashboard",
-},
- {
-  title: "Clone Youtube",
-  description:
-  "A responsive YouTube clone built with React.js and Tailwind CSS. Features include video search, video details, channel pages, related videos, and real-time data integration using the YouTube Data API v3.",
-  image: "/Clone-youtube.png",
-  tags: [
-  "React",
-  "Tailwind CSS",
-  "React Router",
-  "Axios",
-  "YouTube Data API v3",
-  "Responsive Design",
-  "JavaScript"
-],
-  link: "https://youtube-clone-react-mu-ivory.vercel.app/",
-  github: "https://mohamed-elthaer.github.io/youtube-clone-react/",
-},
-
+    title: "Task Management Dashboard",
+    description:
+      "Built a modern project and task management dashboard featuring task tracking, project organization, user management, interactive analytics charts, and CRUD functionality. Implemented responsive design, Redux Toolkit for state management, and a clean user experience optimized for productivity.",
+    image: "/project-dashboard.png",
+    tags: [
+      "React",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "React Router",
+      "Recharts",
+      "JavaScript",
+    ],
+    link: "https://task-management-dashboard-jade.vercel.app/",
+    github: "https://github.com/Mohamed-Elthaer/task-management-dashboard",
+  },
+  {
+    title: "Clone Youtube",
+    description:
+      "A responsive YouTube clone built with React.js and Tailwind CSS. Features include video search, video details, channel pages, related videos, and real-time data integration using the YouTube Data API v3.",
+    image: "/Clone-youtube.png",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "React Router",
+      "Axios",
+      "YouTube Data API v3",
+      "Responsive Design",
+      "JavaScript",
+    ],
+    link: "https://youtube-clone-react-mu-ivory.vercel.app/",
+    github: "https://mohamed-elthaer.github.io/youtube-clone-react/",
+  },
+  {
+    title: "Foodio - Food Ordering Platform",
+    description:
+      "Built a full-featured food ordering platform with product browsing, cart, wishlist, coupons, and customer reviews, alongside a complete admin dashboard for managing products, categories, orders, users, and coupons. Integrated real payment processing with Paymob (cash, card, and wallet), real-time notifications, and a fully responsive design across all devices.",
+    image: "/foodio.png",
+    tags: [
+      "React",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "React Router",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Paymob API",
+      "Socket.io"
+    ],
+    link: "https://foodio-eight.vercel.app/",
+    github: "https://github.com/Mohamed-Elthaer/foodio",
+  },
 ];
 export default function Projects() {
   return (
